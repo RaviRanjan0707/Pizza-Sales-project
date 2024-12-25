@@ -37,3 +37,6 @@ FROM
     Pizzas ON pizza_types.pizza_type_id = pizzas.pizza_type_id
 ORDER BY pizzas.price DESC
 LIMIT 1;
+
+select quantity, count(order_details_id)
+from order_details Group by quantity;
