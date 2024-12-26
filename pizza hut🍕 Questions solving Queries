@@ -51,3 +51,4 @@ GROUP BY pizza_types.name
 ORDER BY Total_quantity DESC
 LIMIT 5;
 
+-- Join the necessary tables to find the total quantity of each pizza category ordered.
