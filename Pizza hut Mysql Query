@@ -75,3 +75,10 @@ FROM
     order_details ON order_details.pizza_id = pizzas.pizza_id
 GROUP BY pizza_types.category
 ORDER BY quantity DESC;
+
+SELECT 
+    HOUR(order_time) AS hour, COUNT(order_id) AS order_count
+FROM
+    orders
+GROUP BY HOUR(order_time);
+
