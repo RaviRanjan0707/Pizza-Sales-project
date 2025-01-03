@@ -1,0 +1,40 @@
+Project Overview
+This project analyzes PizzaHut sales data using Microsoft SQL Server Management Studio. The analysis uncovers insights into sales trends, customer preferences, and business performance by addressing key business questions.
+
+Features
+Analyze sales trends and customer behaviors.
+Discover top-performing pizza categories and sizes.
+Gain insights into time-based ordering patterns.
+Evaluate revenue contributions by pizza types and categories.
+
+Datasets
+The analysis uses four datasets to explore different aspects of PizzaHut’s sales performance.
+
+Key Analyses
+The project answers 13 critical business questions:
+
+Retrieve the total number of orders placed.
+Calculate total revenue from pizza sales.
+Identify the highest-priced pizza.
+Discover the most common pizza size ordered.
+List the top 5 most-ordered pizza types with quantities.
+Find the total quantity of pizzas ordered by category.
+Analyze order distribution by hour of the day.
+Explore category-wise pizza distribution.
+Calculate the average number of pizzas ordered per day.
+Identify the top 3 pizza types based on revenue.
+Calculate each pizza type’s percentage contribution to total revenue.
+Visualize cumulative revenue over time.
+Analyze the top 3 pizza types by revenue in each category.
+
+Tools Used
+Microsoft SQL Server Management Studio (SSMS)
+SQL for querying and analysis
+Getting Started
+
+Clone this repository.
+Import the datasets into your SQL Server.
+Use the provided SQL scripts to execute the analyses.
+Contributions
+
+Contributions to improve or expand the analysis are welcome. Please submit a pull request or open an issue.
